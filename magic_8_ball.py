@@ -12,7 +12,7 @@ class Window(QMainWindow):
 	def action(self):
 		self.timer = QtCore.QTimer(self)
 
-		self.gif = QMovie('images/shuffle.gif')
+		self.gif = QMovie('images1/shuffle.gif')
 		self.l1.setMovie(self.gif)
 		self.gif.start()
 
@@ -31,7 +31,7 @@ class Window(QMainWindow):
 		self.setMaximumHeight(350)
 
 		self.l1 = QLabel(self) 
-		self.p = QPixmap('images/glow (20).png') 
+		self.p = QPixmap('images1/glow(20).png') 
 		self.l1.setPixmap(self.p) 
 		self.l1.resize(self.p.width(), self.p.height())
 
